@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_category_offers",
+  "info": {
+    "displayName": "Offers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoices",
+  "info": {
+    "singularName": "invoice",
+    "pluralName": "invoices",
+    "displayName": "Invoice",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Category": {
+      "type": "dynamiczone",
+      "components": [
+        "category.offers",
+        "category.seeds",
+        "category.tithes",
+        "category.unknown-seeds",
+        "category.unknown-tithes"
+      ],
+      "max": 1
+    }
+  }
+}

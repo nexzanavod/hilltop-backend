@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "Payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Programe_Date": {
+      "type": "date"
+    },
+    "Program_Name": {
+      "type": "string"
+    },
+    "Tithes_Number": {
+      "type": "integer"
+    },
+    "Tithes_Name": {
+      "type": "string"
+    },
+    "Tithes_Mobile": {
+      "type": "string"
+    },
+    "Peyment_Method": {
+      "type": "string"
+    },
+    "Payment": {
+      "type": "integer"
+    },
+    "Note": {
+      "type": "string"
+    },
+    "Payment_Category": {
+      "type": "string"
+    },
+    "Person_Name": {
+      "type": "string"
+    },
+    "Person_Mobile": {
+      "type": "string"
+    },
+    "Add_Unknown": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

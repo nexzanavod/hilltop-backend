@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_category_unknown_tithes",
+  "info": {
+    "displayName": "Unknown_Tithes"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

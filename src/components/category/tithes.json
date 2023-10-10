@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_category_tithes",
+  "info": {
+    "displayName": "Tithes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tithe": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tithes.tithes"
+    }
+  }
+}

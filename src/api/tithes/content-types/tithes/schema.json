@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "titheses",
+  "info": {
+    "singularName": "tithes",
+    "pluralName": "titheses",
+    "displayName": "Tithes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Tithes_Id": {
+      "type": "integer"
+    },
+    "mobile": {
+      "type": "string"
+    }
+  }
+}

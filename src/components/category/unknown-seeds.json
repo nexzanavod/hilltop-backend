@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_category_unknown_seeds",
+  "info": {
+    "displayName": "Unknown_Seeds"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

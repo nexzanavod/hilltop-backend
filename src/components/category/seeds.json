@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_category_seeds",
+  "info": {
+    "displayName": "Seeds"
+  },
+  "options": {},
+  "attributes": {
+    "tithe": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tithes.tithes"
+    }
+  }
+}
